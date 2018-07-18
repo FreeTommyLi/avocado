@@ -51,10 +51,7 @@ you have a couple of options:
 Documentation
 -------------
 
-Avocado comes with in tree documentation about the most advanced features and
-its API. It can be built with ``sphinx``, but a publicly available build of
-the latest master branch documentation and releases can be seen on `read the
-docs <https://readthedocs.org/>`__:
+Avocado about advanced features and its API comes with tree documentation which is built with ``sphinx``, but a build of master branch documentation document and realeases can be seen on `read the docs <https://readthedocs.org/>`__:
 
 http://avocado-framework.readthedocs.org/
 
@@ -68,7 +65,7 @@ If you want to build the documentation yourself:
 
     $ sudo apt-get install python-sphinx
 
-3) Optionally, you can install the read the docs theme, that will make your
+3)You need install the read the docs theme, that will make your
    in-tree documentation look just like the online version::
 
     $ sudo pip install sphinx_rtd_theme
@@ -77,7 +74,7 @@ If you want to build the documentation yourself:
 
     $ make -C docs html
 
-5) Once done, point your browser to::
+5) Point your browser to::
 
     $ [your-browser] docs/build/html/index.html
 
